@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.mpchapter7"
+    namespace = "com.example.chap08"
     compileSdk = 34
-    viewBinding{ enable = true }
+
     defaultConfig {
-        applicationId = "com.example.mpchapter7"
+        applicationId = "com.example.chap08"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

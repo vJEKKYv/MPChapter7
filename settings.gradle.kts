@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "MPChapter7"
 include(":app")
- 
+include(":chap08")
