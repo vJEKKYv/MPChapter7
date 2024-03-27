@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MPChapter7" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.MPChapter7" parent="Base.Theme.MPChapter7" />
+    <style name="Button_style">
+        <item name="android:paddingLeft">40dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingRight">40dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="con_style">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+</resources>

@@ -22,3 +22,5 @@ dependencyResolutionManagement {
 rootProject.name = "MPChapter7"
 include(":app")
 include(":chap08")
+include(":app:ch7_layout")
+include(":Ch7_Layout")

@@ -2,7 +2,13 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
+      <entry key="Ch7_Layout">
+        <State />
+      </entry>
       <entry key="app">
+        <State />
+      </entry>
+      <entry key="app.ch7_layout">
         <State />
       </entry>
       <entry key="chap08">
