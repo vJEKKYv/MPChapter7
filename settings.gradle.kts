@@ -21,6 +21,8 @@ dependencyResolutionManagement {
 
 rootProject.name = "MPChapter7"
 include(":app")
-include(":chap08")
+include(":ch08EventTest")
 include(":app:ch7_layout")
 include(":Ch7_Layout")
+include(":ch08")
+include(":ch08keyEvent")
