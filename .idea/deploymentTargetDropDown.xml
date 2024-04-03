@@ -11,6 +11,9 @@
       <entry key="app.ch7_layout">
         <State />
       </entry>
+      <entry key="ch08">
+        <State />
+      </entry>
       <entry key="ch08ChangeHandler">
         <State />
       </entry>
@@ -22,6 +25,22 @@
       </entry>
       <entry key="ch08keyEvent">
         <State />
+      </entry>
+      <entry key="ch09">
+        <State>
+          <targetSelectedWithDropDown>
+            <Target>
+              <type value="QUICK_BOOT_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="C:\Users\user\.android\avd\Pixel_3a_API_34.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </targetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2024-04-03T06:57:34.631109400Z" />
+        </State>
       </entry>
       <entry key="chap08">
         <State>

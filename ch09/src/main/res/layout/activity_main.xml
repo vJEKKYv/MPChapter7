@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/Hello"
+        android:fontFamily="@font/pacifico"
+        android:backgroundTint="#00ff00"
+        android:textColor="@color/button_text" />
+    <EditText
+        android:id="@+id/textEdit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="안녕하세요"
+        android:textColor="@color/button_text"/>
+    <EditText
+        android:id="@+id/textEdit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="안녕하세요"
+        android:textColor="@color/button_text"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Hello"
+        android:textSize="20dp"
+        android:fontFamily="@font/pacifico"/>
+</LinearLayout>
