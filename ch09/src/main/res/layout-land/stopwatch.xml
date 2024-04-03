@@ -21,9 +21,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:gravity="center_horizontal"
-        android:text="@string/intro_detail"
-        android:textSize="20dp"
-        android:textStyle="bold"/>
+        android:text="@string/intro_detail"/>
     <TextView
         android:id="@+id/delayTextView"
         android:layout_width="match_parent"
