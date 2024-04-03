@@ -27,6 +27,7 @@
         android:text="안녕하세요"
         android:textColor="@color/button_text"/>
     <TextView
+        android:id="@+id/textvalue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Hello"
