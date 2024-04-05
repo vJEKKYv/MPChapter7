@@ -4,7 +4,6 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.ch13.databinding.ActivityDetailBinding
-import com.example.ch13.databinding.ActivityMainBinding
 
 class DetailActivity : AppCompatActivity() {
     lateinit var binding: ActivityDetailBinding
@@ -16,7 +15,7 @@ class DetailActivity : AppCompatActivity() {
 
         binding.finishBtn.setOnClickListener{
             val intent = Intent()
-            intent.putExtra("resultData", "world")
+            intent.putExtra("result", "world")
             setResult(RESULT_OK, intent)
             finish()
         }
