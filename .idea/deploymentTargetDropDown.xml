@@ -8,12 +8,6 @@
       <entry key="app">
         <State />
       </entry>
-      <entry key="app.ch7_layout">
-        <State />
-      </entry>
-      <entry key="ch08">
-        <State />
-      </entry>
       <entry key="ch08ChangeHandler">
         <State />
       </entry>
@@ -27,57 +21,18 @@
         <State />
       </entry>
       <entry key="ch09">
-        <State>
-          <targetSelectedWithDropDown>
-            <Target>
-              <type value="QUICK_BOOT_TARGET" />
-              <deviceKey>
-                <Key>
-                  <type value="VIRTUAL_DEVICE_PATH" />
-                  <value value="C:\Users\user\.android\avd\Pixel_3a_API_34.avd" />
-                </Key>
-              </deviceKey>
-            </Target>
-          </targetSelectedWithDropDown>
-          <timeTargetWasSelectedWithDropDown value="2024-04-03T06:57:34.631109400Z" />
-        </State>
+        <State />
+      </entry>
+      <entry key="ch10">
+        <State />
       </entry>
       <entry key="ch11">
         <State />
       </entry>
       <entry key="ch13">
-        <State>
-          <targetSelectedWithDropDown>
-            <Target>
-              <type value="QUICK_BOOT_TARGET" />
-              <deviceKey>
-                <Key>
-                  <type value="VIRTUAL_DEVICE_PATH" />
-                  <value value="C:\Users\user\.android\avd\Pixel_3a_API_34.avd" />
-                </Key>
-              </deviceKey>
-            </Target>
-          </targetSelectedWithDropDown>
-          <timeTargetWasSelectedWithDropDown value="2024-04-05T04:41:07.182098400Z" />
-        </State>
+        <State />
       </entry>
-      <entry key="chap08">
-        <State>
-          <targetSelectedWithDropDown>
-            <Target>
-              <type value="QUICK_BOOT_TARGET" />
-              <deviceKey>
-                <Key>
-                  <type value="VIRTUAL_DEVICE_PATH" />
-                  <value value="C:\Users\user\.android\avd\Pixel_2_API_34.avd" />
-                </Key>
-              </deviceKey>
-            </Target>
-          </targetSelectedWithDropDown>
-          <timeTargetWasSelectedWithDropDown value="2024-03-29T04:54:56.687695100Z" />
-        </State>
-      </entry>
-      <entry key="chap08EventTest">
+      <entry key="ch13anrtest">
         <State />
       </entry>
     </value>

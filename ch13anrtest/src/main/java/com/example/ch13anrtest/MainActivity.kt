@@ -1,20 +1,38 @@
 package com.example.ch13anrtest
 
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
+import android.os.Handler
+import android.os.Message
+import android.os.SystemClock.sleep
+import kotlin.concurrent.thread
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import com.example.ch13anrtest.databinding.ActivityMainBinding
+import kotlin.system.measureTimeMillis
 
 class MainActivity : AppCompatActivity() {
+    lateinit var binding:ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
-        setContentView(R.layout.activity_main)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+        val handler = object : Handler(){
+            override fun handleMessage(msg: Message) {
+                super.handleMessage(msg)
+                binding.result.text = "sum: ${msg.arg1}"
+            }
+        }
+
+        binding.click.setOnClickListener{
+            var sum = 0L
+            var time = measureTimeMillis {
+                for (i in 1..10){
+                    sleep(1000)
+                    sum +=i
+                }
+            }
+            Log.d("kkang", "time : $time")
         }
     }
 }

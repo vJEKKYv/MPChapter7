@@ -18,8 +18,10 @@
             <option value="$PROJECT_DIR$/ch08_Event" />
             <option value="$PROJECT_DIR$/ch08keyEvent" />
             <option value="$PROJECT_DIR$/ch09" />
+            <option value="$PROJECT_DIR$/ch10" />
             <option value="$PROJECT_DIR$/ch11" />
             <option value="$PROJECT_DIR$/ch13" />
+            <option value="$PROJECT_DIR$/ch13anrtest" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />

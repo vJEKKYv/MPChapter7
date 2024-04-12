@@ -1,3 +1,5 @@
+import kotlin.coroutines.coroutineContext
+
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsKotlinAndroid)
@@ -6,7 +8,7 @@ plugins {
 android {
     namespace = "com.example.ch13anrtest"
     compileSdk = 34
-
+    viewBinding{ enable = true }
     defaultConfig {
         applicationId = "com.example.ch13anrtest"
         minSdk = 24
