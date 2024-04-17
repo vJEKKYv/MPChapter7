@@ -10,6 +10,6 @@ class TwoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_two)
-        title = "Two Activity"
+        title = "2nd Activity"
     }
 }
